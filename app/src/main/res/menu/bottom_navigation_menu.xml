@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_currency_list_24"
+        android:enabled="true"
+        android:title="@string/currency_list"
+        android:id="@+id/currencyListFragment"/>
+
+    <item
+        android:icon="@drawable/ic_currency_calculator_24"
+        android:enabled="true"
+        android:title="@string/currency_calculator"
+        android:id="@+id/currencyConverterFragment"/>
+
+</menu>

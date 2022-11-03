@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/currencyListFragment">
+
+    <fragment
+        android:id="@+id/currencyListFragment"
+        android:name="com.example.hnbcurrencyapp.ui.currency.CurrencyListFragment"
+        android:label="CurrencyListFragment" >
+        <action
+            android:id="@+id/action_currencyListFragment_to_currencyConverterFragment"
+            app:destination="@id/currencyConverterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/currencyConverterFragment"
+        android:name="com.example.hnbcurrencyapp.ui.currency.CurrencyDetailsFragment"
+        android:label="CurrencyConverterFragment" >
+        <argument
+            android:name="id"
+            app:argType="string" />
+    </fragment>
+</navigation>

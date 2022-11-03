@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HNBCurrencyApp</string>
+    <string name="currency_list">Tečajna lista</string>
+    <string name="currency_calculator">Kalkulator valuta</string>
+    <string name="HNB_exchange_rate">HNB Tečaj Valuta</string>
+    <string name="no_internet">Nema interneta pokušajte ponovo!</string>
+    <string name="no_data">Nema podataka!</string>
+    <string name="backhand_error">Pogreška na serveru. Pokušajte ponovo!</string>
+</resources>

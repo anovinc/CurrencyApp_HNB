@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DisplayBold">
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="LabelLight">
+        <item name="fontFamily">sans-serif-thin</item>
+        <item name="fontStyle">italic</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="DisplayRed">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+</resources>
